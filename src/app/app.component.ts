@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Icards } from './shared/models/cards';
+import { productsArr } from './shared/const/card';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'cardtask2';
+  productsArr1:Array<Icards>=productsArr
 }
